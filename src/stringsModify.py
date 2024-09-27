@@ -4,12 +4,12 @@ def main():
 if __name__ == '__main__':
     main()
 
-x = ("Tiffany")
+x = "Tiffany"
 
 print(x.upper())
 print(x.lower())
 
-y = (" Tiffypox")
+y = " Tiffypox"
 
 print(y.strip()) # removes whitespace from beginning or end
 
@@ -17,6 +17,6 @@ print(y.replace("p", "b"))
 
 print(y.split("p"))
 
-z = ("gREEN fROG")
+z = "gREEN fROG"
 
 print(z.swapcase())
