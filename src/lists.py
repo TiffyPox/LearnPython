@@ -23,5 +23,9 @@ z = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]
 
 print(z['k1'][3]['tricky'][3]['target'][3]) # prints hello
 
+family_members = ["Bob","Jude",["Aunt",["Cat","Dog"]]]
 
+print(family_members[2][1][0]) # prints Cat
 
+# get the length (prints 2)
+print(len(family_members[2][1]))
