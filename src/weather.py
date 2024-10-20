@@ -6,7 +6,11 @@ def main():
     print("")
 
 baseURL = "https://api.weatherapi.com/v1/current.json?"
+
+# enter personal API key:
 apiKEY = ""
+
+# enter chosen city name:
 cityName = "Wrexham"
 
 url = baseURL + "key=" + apiKEY + "&q=" + cityName
