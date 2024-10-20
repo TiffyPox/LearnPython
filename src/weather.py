@@ -6,7 +6,7 @@ def main():
     print("")
 
 baseURL = "https://api.weatherapi.com/v1/current.json?"
-apiKEY = "259b6712df8540b8a01115325242010"
+apiKEY = ""
 cityName = "Wrexham"
 
 url = baseURL + "key=" + apiKEY + "&q=" + cityName
