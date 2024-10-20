@@ -1,5 +1,5 @@
 from msvcrt import getch
-import datetime as dt
+#import datetime as dt
 import requests
 
 def main():
