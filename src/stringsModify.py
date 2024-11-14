@@ -1,3 +1,11 @@
+# Modifying a string to insert the product code after the third character:
+def add_product_code(prod_code, prod_id):
+    # If product code is missing
+    if prod_id[3] != '-':
+        return (f"{prod_id[:3]}-{prod_code}-{prod_id[3:]}")
+    else:
+        return prod_id
+
 def main():
     print("Hello World")
 
@@ -17,14 +25,6 @@ print(y.split("p"))
 z = "gREEN fROG"
 
 print(z.swapcase())
-
-# Modifying a string to insert the product code after the third character:
-def add_product_code(prod_code, prod_id):
-    # If product code is missing
-    if prod_id[3] != '-':
-        return (f"{prod_id[:3]}-{prod_code}-{prod_id[3:]}")
-    else:
-        return prod_id
 
 product_code1 = "70912"
 product_id1 = "JOKFRT-LPO-8BHY-1PL-2ON"
