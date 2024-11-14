@@ -1,9 +1,6 @@
 def main():
     print("Hello World")
 
-if __name__ == "__main__":
-    main()
-
 # Lists
 x = ["Apple", "Banana", "Orange"]
 a, b, o = x
@@ -29,3 +26,6 @@ print(family_members[2][1][0]) # prints Cat
 
 # get the length (prints 2)
 print(len(family_members[2][1]))
+
+if __name__ == "__main__":
+    main()

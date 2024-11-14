@@ -1,9 +1,6 @@
 def main():
     print("Hello World")
 
-if __name__ == "__main__":
-    main()
-
 i = int(1)
 
 while i < 11:
@@ -38,3 +35,6 @@ while l < 11:
     l += 1
 else:
     print("Variable is no longer less than 11")
+
+if __name__ == "__main__":
+    main()

@@ -6,10 +6,6 @@ import random
 def main():
     print("Hello World")
 
-# this checks whether a Python script is being run directly or being imported as a module into another script
-if __name__ == "__main__":
-    main()
-
 # functions
 
 firstName = "Tiffany"
@@ -39,5 +35,9 @@ def my_math_function():
     print(math.sqrt(16))
 
 my_math_function()
+
+# this checks whether a Python script is being run directly or being imported as a module into another script
+if __name__ == "__main__":
+    main()
 
 

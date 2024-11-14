@@ -1,9 +1,6 @@
 def main():
     print("Hello World")
 
-if __name__ == "__main__":
-    main()
-
 print("Hello")
 print('Hello')
 
@@ -35,3 +32,6 @@ print("light" in c)
 
 if "flower" not in c:
     print("The word flower is not in that sentence")
+
+if __name__ == "__main__":
+    main()

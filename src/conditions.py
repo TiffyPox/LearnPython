@@ -1,9 +1,6 @@
 def main():
     print("Hello World")
 
-if __name__ == "__main__":
-    main()
-
 x = int(30)
 y = int(33)
 z = int(33)
@@ -34,3 +31,6 @@ if x > z or y > x:
 # using the not operator:
 if not x > y:
     print(str(x) + " is NOT greater than " + str(y))
+
+if __name__ == "__main__":
+    main()

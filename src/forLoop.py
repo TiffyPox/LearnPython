@@ -1,9 +1,6 @@
 def main():
     print("Hello World")
 
-if __name__ == '__main__':
-    main()
-
 # iterating through a list:
 x = ["Apple", "Banana", "Orange"]
 
@@ -46,3 +43,6 @@ for x in feeling:
 # for loops shouldn't be empty but in the event that they are, use the pass statement:
 for x in [0, 1, 2]:
     pass
+
+if __name__ == '__main__':
+    main()
