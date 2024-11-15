@@ -1,4 +1,4 @@
-# Modifying a string to insert the product code after the third character:
+# A function that inserts the product code after the third character
 def add_product_code(prod_code, prod_id):
     # If product code is missing
     if prod_id[3] != '-':

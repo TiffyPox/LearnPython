@@ -1,8 +1,7 @@
 from string import ascii_lowercase
 
-# A function that determines if a string contains all the letters in the alphabetS
+# A function that determines if a string contains all the letters in the alphabet
 def check_string(s):
-    # Your code goes here
     missing = []
 
     for letter in ascii_lowercase:
@@ -12,6 +11,7 @@ def check_string(s):
     new_list = missing
 
     if len(missing) > 0:
+        # Print the contents of the list without commas
         return(f"The string is missing the following letters: {''.join(missing)}")
     else:
         return("The string contains all the letters of the alphabet.")

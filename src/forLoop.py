@@ -7,6 +7,10 @@ x = ["Apple", "Banana", "Orange"]
 for fruit in x:
     print(fruit)
 
+# modify the loop to print a message with each item
+for fruit in x:
+    print(f"I love {fruit}s!")
+
 # iterating through a string to print the characters:
 y = str("Tiffany")
 
