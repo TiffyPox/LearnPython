@@ -2,9 +2,10 @@ import turtle
 
 timmy = turtle.Turtle()
 
-turtle.bgcolor('pink') # turn background black 
+turtle.bgcolor('pink') # Turn background pink 
 
-# get ready to draw 36 circles 
+# Drawing a frog with turtle
+
 timmy.penup() 
 timmy.color('white')
 
@@ -37,25 +38,25 @@ timmy.color('black')
 timmy.circle(20)
 timmy.end_fill()
 
-# mouth
+# Mouth
 timmy.goto(0, -20)
 timmy.begin_fill()
 timmy.color('black')
 timmy.circle(10)
 timmy.end_fill()
 
-# nose
+# Nose
 timmy.penup() 
-timmy.goto(-10, 70) # move to window position 
+timmy.goto(-10, 70) 
 timmy.pendown() 
-timmy.begin_fill() # start filling window color 
+timmy.begin_fill() 
 timmy.color('black') 
 for i in range(4): 
     timmy.forward(20) 
     timmy.left(120) 
-timmy.end_fill() # end filling window color 
+timmy.end_fill() 
 
-# hide turtle to finish the drawing 
+# Hide turtle to finish the drawing 
 timmy.hideturtle()
 
 turtle.done()
