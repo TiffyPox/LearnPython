@@ -1,10 +1,11 @@
 import turtle
 
+# Week 11 of University
+# Task: Draw a frog using turtle
+
 timmy = turtle.Turtle()
 
 turtle.bgcolor('pink') # Turn background pink 
-
-# Drawing a frog with turtle
 
 timmy.penup() 
 timmy.color('white')

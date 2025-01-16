@@ -1,4 +1,6 @@
-# Make a house using Turtle
+# Week 11 of University
+# Task: Draw a house using Turtle
+
 import turtle 
 
 # Create a screen object
@@ -56,29 +58,29 @@ timmy.end_fill() # end filling window color
 
 # Door
 timmy.penup() 
-timmy.goto(60, 20) # move to window position 
+timmy.goto(60, 20) # move to door position 
 timmy.pendown() 
-timmy.begin_fill() # start filling window color 
+timmy.begin_fill() # start filling door color 
 timmy.color('brown') 
 for i in range(4): 
     timmy.forward(20) 
     timmy.left(90) 
-timmy.end_fill() # end filling window color 
+timmy.end_fill() # end filling door color 
 
 # Door
 timmy.penup() 
-timmy.goto(60, 40) # move to window position 
+timmy.goto(60, 40) # move to door position 
 timmy.pendown() 
-timmy.begin_fill() # start filling window color 
+timmy.begin_fill() # start filling door color 
 timmy.color('brown') 
 for i in range(4): 
     timmy.forward(20) 
     timmy.left(90) 
-timmy.end_fill() # end filling window color 
+timmy.end_fill() # end filling door color 
 
 # Bush
 timmy.penup()
-timmy.goto(100, 30) # move to window position 
+timmy.goto(100, 30) # move to bush position 
 timmy.begin_fill() 
 timmy.color('green') 
 timmy.circle(20)
@@ -86,7 +88,7 @@ timmy.end_fill()
 
 # Sun
 timmy.penup()
-timmy.goto(-80, 280) # move to window position 
+timmy.goto(-80, 280) # move to sun position 
 timmy.begin_fill() 
 timmy.color('yellow') 
 timmy.circle(20)
@@ -94,14 +96,14 @@ timmy.end_fill()
 
 # Grass
 timmy.penup() 
-timmy.goto(-400, 0) # move to window position 
+timmy.goto(-400, 0) # move to grass beginning position 
 timmy.pendown() 
-timmy.begin_fill() # start filling window color 
+timmy.begin_fill() # start filling grass color 
 timmy.color('green') 
 for i in range(4):
     timmy.forward(-800) 
     timmy.left(-90) 
-timmy.end_fill() # end filling window color 
+timmy.end_fill() # end filling grass color 
 
 # Person head
 timmy.penup()
