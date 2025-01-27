@@ -13,12 +13,11 @@ def calculate(x, n):
     
     return answer
 
-x = float(input("x variable:")) # Base number
+x = int(input("x variable:")) # Base number
 n = int(input("n variable:")) # Exponent
 
 answer = calculate(x, n)
 print(answer)
-
 
 # The time complexity of the above program is O(n) (linear complexity)
 
