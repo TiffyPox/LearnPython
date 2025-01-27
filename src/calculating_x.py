@@ -19,6 +19,9 @@ n = int(input("n variable:")) # Exponent
 answer = calculate(x, n)
 print(answer)
 
+
+# The time complexity of the above program is O(n) (linear complexity)
+
 # Modify the algorithm so that is deals with any values of n that are positive and negative ints
 def modified_calculation(x, n):
     # If n is 0
@@ -46,6 +49,10 @@ def modified_calculation(x, n):
     
 modified_answer = modified_calculation(x, n)
 print(modified_answer)
+
+# The time complexity of the above modified program is O(|n|)
+# This means that the runtime depends on the absolute value of n
+# The absolute value of n is the non-negative value of n
 
 if __name__ == '__main__':
     main()

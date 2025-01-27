@@ -30,7 +30,7 @@ result = num_frequency(user_num, random_series)
 print(f"Your number showed up {result} times in my series of random numbers!")
 
 # The time complexity of this program is O(n) because the loop only runs once for each element in the num_list
-# The loop executes n times
+# The loop executes n times (linear complexity)
 
 if __name__ == '__main__':
     main()
