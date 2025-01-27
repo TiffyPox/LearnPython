@@ -3,7 +3,7 @@ def main():
 
 # Computational thinking, algorithms and complexity
 # Implement an algorithm that calculates x(n) (x raised to the power of n)
-# e.g 2(x), 4(n) 2 x 2 x 2 x 2 = 16(answer)
+# e.g. 2(x), 4(n) 2 x 2 x 2 x 2 = 16(answer)
 
 def calculate(x, n):
     answer = x
